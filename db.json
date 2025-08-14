@@ -125,7 +125,7 @@
 			{ "state": "BC", "country": "Canada" },
 			{ "state": "NSW", "country": "Australia" }
 		],
-        "message": "Recruiters retrieved successfully.",
+        "message": "Locations retrieved successfully.",
         "code": 200,
         "status": "success",
         "time_taken_ms": 255.092
