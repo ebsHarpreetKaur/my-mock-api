@@ -159,68 +159,6 @@
         "data": {
             "rules": [
                 {
-                    "_id": "689aba192a51079f3cba7ab8",
-                    "priority": 1,
-                    "rule_name": "Rule 12-Aug",
-                    "description": "",
-                    "tam_rule_id": "1b95a910-a105-48e2-9b88-c34792002dd3",
-                    "created_by": 24,
-                    "job_count": 76,
-
-                    "created_by_email": "sdadwal+test1@jobsync.io",
-                    "created_from_email": "shay.johnson2+compass-usa@jobsync.io",
-                    "client_email": "shay.johnson2+compass-usa@jobsync.io",
-                    "created_at": "2025-08-12T03:50:49.833000",
-                    "updated_at": "2025-08-12T03:50:49.833000",
-                    "assigned_to_id": 1963,
-                    "assigned_to_name": "Zachary Anderson",
-                    "rules": [
-                        {
-                            "multiselect": [
-                            
-                                {
-                                    "field": {
-                                        "text": "Job Type",
-                                        "value": "job_type"
-                                    },
-                                    "value": ["xxx", "yyy", "zzz"]
-                                }
-
-                            ]
-                        },
-                        {
-                            "inputType": [
-                                {
-                                    "field": {
-                                        "text": "Title",
-                                        "value": "title"
-                                    },
-                                    "value": "Full time Jobs"
-                                }
-                            ]
-                        },
-                        {
-                            "operator": [
-                                {
-                                    "field": {
-                                        "text": "Radius",
-                                        "value": "radius"
-                                    },
-                                    "operator": {
-                                        "text": "Less than",
-                                        "value": "<"
-                                    },
-                                    "value": {
-                                        "text": "10",
-                                        "value": "10"
-                                    }
-                                }
-                            
-                            ]
-                        }
-                    ]
-                },
-                {
                     "_id": "686417e12854bf7dd4a30d25",
                     "priority": 12,
                     "rule_name": "Rule-sm-1",
@@ -346,5 +284,6 @@
         "time_taken_ms": 255.092
     }
 }
+
 
 
