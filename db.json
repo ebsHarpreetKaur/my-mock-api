@@ -154,31 +154,5 @@
         "code": 200,
         "status": "success",
         "time_taken_ms": 255.092
-    },
-    "organisation":{
-        "dummyOrganisation" : [
-			    "Google",
-                "Microsoft",
-                "Amazon",
-                "Meta",
-                "Tesla"
-		],
-        "message": "Organisation retrieved successfully.",
-        "code": 200,
-        "status": "success",
-        "time_taken_ms": 255.092
-    },
-    "job_type":{
-        "dummyJobType" : [
-		   "Full-Time",
-            "Part-Time",
-            "Contract",
-            "Internship",
-            "Freelance"
-		],
-        "message": "Job Type retrieved successfully.",
-        "code": 200,
-        "status": "success",
-        "time_taken_ms": 255.092
     }
 }
