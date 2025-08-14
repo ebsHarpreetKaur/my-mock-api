@@ -116,7 +116,7 @@
         "status": "success",
         "time_taken_ms": 255.092
     },
-    "location" :{
+    "locations" :{
         "dummyData" : [
 			{ "state": "WI", "country": "US" },
 			{ "state": "CA", "country": "US" },
