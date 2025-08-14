@@ -115,47 +115,10 @@
         "code": 200,
         "status": "success",
         "time_taken_ms": 255.092
-    },
-    "location" :{
-        "dummyData" : [
-			{ "state": "WI", "country": "US" },
-			{ "state": "CA", "country": "US" },
-			{ "state": "TX", "country": "US" },
-			{ "state": "NY", "country": "US" },
-			{ "state": "BC", "country": "Canada" },
-			{ "state": "NSW", "country": "Australia" }
-		],
-        "message": "Recruiters retrieved successfully.",
-        "code": 200,
-        "status": "success",
-        "time_taken_ms": 255.092
-    },
-    "recruiters":{
-         "dummyRecruiters" : [
-			{ "name": "John Doe", "email": "john.doe@example.com" },
-			{ "name": "Jane Smith", "email": "jane.smith@example.com" },
-			{ "name": "Robert Johnson", "email": "robert.j@example.com" },
-			{ "name": "Emily Davis", "email": "emily.d@example.com" }
-		],
-        "message": "Recruiters retrieved successfully.",
-        "code": 200,
-        "status": "success",
-        "time_taken_ms": 255.092
-    },
-    "job_category":{
-        "dummyCategories" : [
-			"Software Development",
-			"Marketing",
-			"Human Resources",
-			"Finance",
-			"Customer Support"
-		],
-        "message": "Job Categories retrieved successfully.",
-        "code": 200,
-        "status": "success",
-        "time_taken_ms": 255.092
     }
+ 
 }
+
 
 
 
