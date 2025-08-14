@@ -1,117 +1,144 @@
 { 
     "config" :{
-    "data": {
-        "client_id": 1744,
-        "type": "tam",
-        "fields": [
-            {
-                "label": "Recruiter Name/Email",
-                "name": "recruiter",
-                "type": "multiselect",
-                "dataSource": {
-                    "type": "api",
-                    "url": "/recruiters"
-                },
-                "searchable": true,
-                "placeholder": "Select recruiter(s)"
-            },
-            {
-                "label": "Job Category",
-                "name": "job_category",
-                "type": "multiselect",
-                "dataSource": {
-                    "type": "api",
-                    "url": "/job_category"
-                },
-                "searchable": true,
-                "placeholder": "Select Job Category"
-            },
-            {
-                "label": "Organization",
-                "name": "organization",
-                "type": "multiselect",
-                "dataSource": {
-                    "type": "api",
-                    "url": "/organization"
-                },
-                "searchable": true,
-                "placeholder": "Select Organization(s)"
-            },
-            {
-                "label": "Job Type",
-                "name": "job_type",
-                "type": "multiselect",
-                "dataSource": {
-                    "type": "api",
-                    "url": "/job_type"
-                },
-                "searchable": true,
-                "placeholder": "Select Job Type"
-            },
-            {
-                "label": "Location",
-                "name": "location",
-                "type": "multiselect",
-                "dataSource": {
-                    "type": "api",
-                    "url": "/locations"
-                },
-                "searchable": true,
-                "placeholder": "Select location(s)"
-            },
-            {
-                "label": "Custom Conditions",
-                "name": "custom_conditions",
-                "type": "group",
-                "allowMultiple": true,
-                "fields": [
-                    {
-                        "name": "field",
-                        "type": "select",
-                        "options": [
-                            {
-                                "label": "Radius",
-                                "value": "radius"
-                            },
-                            {
-                                "label": "Budget",
-                                "value": "budget"
-                            },
-                            {
-                                "label": "Status",
-                                "value": "status"
-                            }
-                        ]
+        "data": {
+            "client_id": 1744,
+            "type": "tam",
+            "fields": [
+                {
+                    "label": "Recruiter Name/Email",
+                    "name": "recruiter",
+                    "type": "multiselect",
+                    "dataSource": {
+                        "type": "api",
+                        "url": "/recruiters"
                     },
-                    {
-                        "name": "operator",
-                        "type": "select",
-                        "options": [
-                            {
-                                "label": "Equals",
-                                "value": "="
-                            },
-                            {
-                                "label": "Greater than",
-                                "value": ">="
-                            },
-                            {
-                                "label": "Less than",
-                                "value": "<="
-                            }
-                        ]
+                    "searchable": true,
+                    "placeholder": "Select recruiter(s)"
+                },
+                {
+                    "label": "Job Category",
+                    "name": "job_category",
+                    "type": "multiselect",
+                    "dataSource": {
+                        "type": "api",
+                        "url": "/job_category"
                     },
-                    {
-                        "name": "value",
-                        "type": "input",
-                        "inputType": "text",
-                        "placeholder": "Enter value"
-                    }
-                ]
-            }
-        ]
+                    "searchable": true,
+                    "placeholder": "Select Job Category"
+                },
+                {
+                    "label": "Organization",
+                    "name": "organization",
+                    "type": "multiselect",
+                    "dataSource": {
+                        "type": "api",
+                        "url": "/organization"
+                    },
+                    "searchable": true,
+                    "placeholder": "Select Organization(s)"
+                },
+                {
+                    "label": "Job Type",
+                    "name": "job_type",
+                    "type": "multiselect",
+                    "dataSource": {
+                        "type": "api",
+                        "url": "/job_type"
+                    },
+                    "searchable": true,
+                    "placeholder": "Select Job Type"
+                },
+                {
+                    "label": "Location",
+                    "name": "location",
+                    "type": "multiselect",
+                    "dataSource": {
+                        "type": "api",
+                        "url": "/locations"
+                    },
+                    "searchable": true,
+                    "placeholder": "Select location(s)"
+                },
+                {
+                    "label": "Custom Conditions",
+                    "name": "custom_conditions",
+                    "type": "group",
+                    "allowMultiple": true,
+                    "fields": [
+                        {
+                            "name": "field",
+                            "type": "select",
+                            "options": [
+                                {
+                                    "label": "Radius",
+                                    "value": "radius"
+                                },
+                                {
+                                    "label": "Budget",
+                                    "value": "budget"
+                                },
+                                {
+                                    "label": "Status",
+                                    "value": "status"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "operator",
+                            "type": "select",
+                            "options": [
+                                {
+                                    "label": "Equals",
+                                    "value": "="
+                                },
+                                {
+                                    "label": "Greater than",
+                                    "value": ">="
+                                },
+                                {
+                                    "label": "Less than",
+                                    "value": "<="
+                                }
+                            ]
+                        },
+                        {
+                            "name": "value",
+                            "type": "input",
+                            "inputType": "text",
+                            "placeholder": "Enter value"
+                        }
+                    ]
+                }
+            ]
+        },
+        "message": "succcess",
+        "time_taken_ms": 142.456
     },
-    "message": "succcess",
-    "time_taken_ms": 142.456
-}
+    "location" :{
+        "dummyData" : [
+			{ "state": "WI", "country": "US" },
+			{ "state": "CA", "country": "US" },
+			{ "state": "TX", "country": "US" },
+			{ "state": "NY", "country": "US" },
+			{ "state": "BC", "country": "Canada" },
+			{ "state": "NSW", "country": "Australia" }
+		]
+    },
+    "recruiters":{
+         "dummyRecruiters" : [
+			{ "name": "John Doe", "email": "john.doe@example.com" },
+			{ "name": "Jane Smith", "email": "jane.smith@example.com" },
+			{ "name": "Robert Johnson", "email": "robert.j@example.com" },
+			{ "name": "Emily Davis", "email": "emily.d@example.com" }
+		]
+    },
+    "job_category":{
+        "dummyCategories" : [
+			"Software Development",
+			"Marketing",
+			"Human Resources",
+			"Finance",
+			"Customer Support"
+		]
+    }
 }
