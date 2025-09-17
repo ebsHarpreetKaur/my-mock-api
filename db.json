@@ -1,20 +1,22 @@
 {
-	"message": "Permissions API run successfully.",
-	"code": 200,
-	"status": "success",
-    "data": {
-        "permission_for_email": "gsingh@jobsync.io",
-        "permissions": [
-			 "get-feed_admin-views-jobsync_feed_mapping",
-            "get-feed_admin-views-jobsync_update_feed_mapping",
-            "get-feed_admin-views-list_apply_forms",
-            "get-feed_admin-views-list_prefix_suffix_records",
-            "get-feed_admin-views-manage_prefix_whiteblacklist",
-            "get-feed_admin-views-manage_product_automations",
-            "get-feed_admin-views-notes_crm_admin",
-            "get-feed_admin-views-report_activity"
-            ]
-    },
-    "time_taken_ms": 2.981
+	"permissionsApi": {
+		"message": "Permissions API run successfully.",
+		"code": 200,
+		"status": "success",
+	    "data": {
+	        "permission_for_email": "gsingh@jobsync.io",
+	        "permissions": [
+				 "get-feed_admin-views-jobsync_feed_mapping",
+	            "get-feed_admin-views-jobsync_update_feed_mapping",
+	            "get-feed_admin-views-list_apply_forms",
+	            "get-feed_admin-views-list_prefix_suffix_records",
+	            "get-feed_admin-views-manage_prefix_whiteblacklist",
+	            "get-feed_admin-views-manage_product_automations",
+	            "get-feed_admin-views-notes_crm_admin",
+	            "get-feed_admin-views-report_activity"
+	            ]
+	    },
+	    "time_taken_ms": 2.981
+	}
 }
 
