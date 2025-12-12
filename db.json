@@ -1,22 +1,160 @@
 {
-	"permissionsApi": {
-		"message": "Permissions API run successfully.",
+	"singleTabViewApi": {
+		"message": "Tab View API run successfully.",
 		"code": 200,
 		"status": "success",
 	    "data": {
-	        "permission_for_email": "gsingh@jobsync.io",
-	        "permissions": [
-				 "get-feed_admin-views-jobsync_feed_mapping",
-	            "get-feed_admin-views-jobsync_update_feed_mapping",
-	            "get-feed_admin-views-list_apply_forms",
-	            "get-feed_admin-views-list_prefix_suffix_records",
-	            "get-feed_admin-views-manage_prefix_whiteblacklist",
-	            "get-feed_admin-views-manage_product_automations",
-	            "get-feed_admin-views-notes_crm_admin",
-	            "get-feed_admin-views-report_activity"
-	            ]
-	    },
+                "_id": "693800cd679dc1ba536ebe4c",
+                "created_by": 18,
+                "created_by_email": "shay.johnson2+compass-usa@jobsync.io",
+                "client_id": 1814,
+                "created_at": "2025-12-09T10:58:21.551000",
+                "updated_at": "2025-12-09T10:58:21.551000",
+                "priority": 1,
+                "is_shared": false,
+                "rule_name": "View 29",
+                "rules": [
+                    {
+                        "multiselect": [
+                            {
+                                "field": {
+                                    "text": "Location",
+                                    "value": "job_data.location"
+                                },
+                                "value": [
+                                    "US , IL"
+                                ]
+                            },
+                            {
+                                "field": {
+                                    "text": "Job Type",
+                                    "value": "job_data.job_type"
+                                },
+                                "value": [
+                                    "Full-Time and Part-Time"
+                                ]
+                            }
+                        ]
+                    },
+					{
+						 "select": [
+                            {
+                                "field": {
+                                    "text": "Budget",
+                                    "value": "campaigns.source.budget"
+                                },
+                                "operator": {
+                                    "text": "Equals",
+                                    "value": "="
+                                },
+                                "value": "8"
+                            },
+                            {
+                                "field": {
+                                    "text": "Apply Count",
+                                    "value": "campaigns.source.applications"
+                                },
+                                "operator": {
+                                    "text": "Greater Than or Equal",
+                                    "value": ">="
+                                },
+                                "value": "7"
+                            }
+                        ]
+					}
+                ],
+                "type": "search_rule",
+                "rule_id": "276d151e-d205-4e3f-908f-afd28606775d",
+                "sub_filters": [
+                    "campaign_setting",
+                    "job_title",
+					"base_reference_number"
+                ],
+                "rules_by_source": [
+                    {
+                        "jobboard": "dalia",
+                        "select": [
+                            {
+                                "field": {
+                                    "text": "Budget",
+                                    "value": "campaigns.source.budget"
+                                },
+                                "operator": {
+                                    "text": "Equals",
+                                    "value": "="
+                                },
+                                "value": "66"
+                            }
+                        ]
+                    },
+					{
+                        "jobboard": "culinaryagents",
+                        "select": [
+                            {
+                                "field": {
+                                    "text": "Apply Count",
+                                    "value": "campaigns.source.applications"
+                                },
+                                "operator": {
+                                    "text": "Equals",
+                                    "value": "="
+                                },
+                                "value": "5"
+                            }
+                        ]
+                    },
+					{
+                        "jobboard": "jobcase",
+                        "select": [
+                            {
+                                "field": {
+                                    "text": "Budget",
+                                    "value": "campaigns.source.budget"
+                                },
+                                "operator": {
+                                    "text": "Equals",
+                                    "value": "="
+                                },
+                                "value": "8"
+                            },
+                            {
+                                "field": {
+                                    "text": "Apply Count",
+                                    "value": "campaigns.source.applications"
+                                },
+                                "operator": {
+                                    "text": "Greater Than or Equal",
+                                    "value": ">="
+                                },
+                                "value": "7"
+                            }
+                        ],
+                        "multiselect": [
+                            {
+                                "field": {
+                                    "text": "Campaign Status",
+                                    "value": "campaigns.source.source_campaign_status"
+                                },
+                                "operator": {
+                                    "text": "In",
+                                    "value": "in"
+                                },
+                                "value": [
+                                    "PAUSED",
+                                    "ACTIVE"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "selected_source": [
+                    "Dalia",
+					"CulinaryAgents",
+                    "Jobcase"
+                ]
+            },
 	    "time_taken_ms": 2.981
 	}
 }
+
 
