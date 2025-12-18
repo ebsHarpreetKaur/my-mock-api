@@ -51,8 +51,8 @@
                             },
                             {
                                 "field": {
-                                    "text": "Apply Count",
-                                    "value": "campaigns.source.applications"
+                                    "text": "Total Applications Count",
+                                    "value": "app_counts.jobsync_overall.total"
                                 },
                                 "operator": {
                                     "text": "Greater Than or Equal",
@@ -156,5 +156,6 @@
 	    "time_taken_ms": 2.981
 	}
 }
+
 
 
